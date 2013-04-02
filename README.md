@@ -6,7 +6,7 @@ Grab badComments.py, run it with
 
 > python badComments.py SOURCE_FILE
 
-Make sure to push the changes you've made into your master branch. 
+Make sure to push the changes into your master branch. 
 Bonus points if you can attribute the changes to someone else.
 
 ## Coming soon
