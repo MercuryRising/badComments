@@ -1,5 +1,7 @@
-# Just what you need to add terrible comments to your source code.
+# Just what you need to add bad comments to your source code.
 Who added these comments? How did this get here... is this really the secret key to the database!?!?
+
+You'll never go back to your current commenting style.
 
 # Usage
 Grab badComments.py, run it with 
