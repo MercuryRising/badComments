@@ -4,6 +4,7 @@
 # Ascii art is from http://www.chris.com/ascii/index.php
 # Some of the art was modified slightly to allow it to be embedded
 # inspired by the comments here - http://www.reddit.com/r/compsci/comments/1bgrio/maintenance_coders_of_reddit_what_are_some_of_the/
+
 import sys
 import os
 import random
@@ -194,7 +195,7 @@ def comment_poorly(filePath):
 		fileName, fileExtension = os.path.splitext(filePath)
 		multilineComment = multiLineComments.get(fileExtension, None)
 		if multilineComment:
-			commentedLines = multilineComment%comment
+			commentedLines = multilineComment %comment
 			insertionPoint = random.choice(range(len(data)))
 			data.insert(insertionPoint, commentedLines)
 			with open(filePath, "wb") as f:
