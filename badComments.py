@@ -186,7 +186,6 @@ def comment_poorly(filePath):
 	Input: File to add terrible comments to.
 	Outputs: Terribly commented file.
 	'''
-
 	try:
 		with open(filePath, "rb") as f:
 	   		data = f.readlines()
