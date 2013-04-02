@@ -3,7 +3,7 @@
 # Do whatever you want with it license
 # Ascii art is from http://www.chris.com/ascii/index.php
 # Some of the art was modified slightly to allow it to be embedded
-
+# inspired by the comments here - http://www.reddit.com/r/compsci/comments/1bgrio/maintenance_coders_of_reddit_what_are_some_of_the/
 import sys
 import os
 import random
